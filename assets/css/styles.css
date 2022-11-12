@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #da70d5;
+    background: linear-gradient(to right, #d3d3d3, #871F78);
 }
 
 button {
@@ -23,6 +23,7 @@ button {
     font-size: 16pt;
     font-weight: 600;
     text-align: center;
+    cursor: pointer;
 }
 
 #counter {
