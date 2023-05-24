@@ -6,11 +6,12 @@
 
 
 body {
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(to right, #d3d3d3, #871F78);
+    background: linear-gradient(to right, black, #530447);
 }
 
 button {
@@ -24,6 +25,16 @@ button {
     font-weight: 600;
     text-align: center;
     cursor: pointer;
+}
+
+.reset {
+    width: 70px;
+    border-radius: 15%;
+    border: 1.5px solid;
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 2.5vh;
 }
 
 #counter {
